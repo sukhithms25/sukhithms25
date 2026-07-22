@@ -1,16 +1,50 @@
 name: Update README
 
 on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - 'README.md'
   schedule:
-    - cron: '0 */6 * * *' # Run every 6 hours
+    - cron: '0 0 * * *'
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
+    if: "!contains(github.event.head_commit.message, 'chore(profile): auto update dashboard')"
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v4
-      - name: Run Update Script
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
         run: |
-          echo "Updating README..."
+          python -m pip install --upgrade pip
+          pip install pyyaml
+
+      - name: Generate README
+        run: |
+          python profile-dashboard/generator/generate_readme.py
+
+      - name: Commit and Push
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git status
+          git add README.md
+          if ! git diff-index --quiet HEAD; then
+            git commit -m "chore(profile): auto update dashboard"
+            git push origin HEAD:main
+          else
+            echo "No changes in README.md"
+          fi
