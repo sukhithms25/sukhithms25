@@ -1,0 +1,8 @@
+theme: specter-os
+accent: "#00f0ff"
+secondary: "#58a6ff"
+success: "#2ea44f"
+warning: "#dbab09"
+danger: "#ff7b72"
+background: "#0b0e14"
+surface: "#161b22"

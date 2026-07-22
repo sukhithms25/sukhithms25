@@ -1,0 +1,43 @@
+user:
+  name: Sukhith M S
+  role: AI Systems Engineer
+  status: ONLINE
+  location: Mysore, India
+  email: sukhithms2003@gmail.com
+  linkedin: linkedin.com/in/sukhith-m-s
+  portfolio: ""
+current_mission:
+  title: ULTRON
+  description: A local-first, modular, personal AI operating system built from scratch with explicit lifecycle orchestration, telemetry, and capabilities.
+  status: In Development
+philosophy:
+  - title: Build from first principles.
+    desc: Avoid framework bloat; construct every layer with intent.
+  - title: Understand every layer.
+    desc: Dig deep into runtime behavior, memory management, and execution budgets.
+  - title: Automate what repeats.
+    desc: Make automation a core system function, not a post-hoc convenience.
+roadmap:
+  year: 2026
+  status: In Development
+  sprints:
+    - name: "Sprint 1"
+      status: "Complete"
+    - name: "Sprint 2"
+      status: "Complete"
+    - name: "Sprint 3"
+      status: "Complete"
+    - name: "Sprint 4"
+      status: "Building"
+    - name: "Sprint 5"
+      status: "Scheduled"
+    - name: "Release"
+      status: "Scheduled"
+journal:
+  today:
+    - Re-architected README layout into OS modules
+    - Created interactive HTML Command Console
+    - Implemented side-by-side repository health metrics
+    - Integrated ULTRON Architecture Mermaid model
+  next:
+    - Custom SVG rendering pipeline

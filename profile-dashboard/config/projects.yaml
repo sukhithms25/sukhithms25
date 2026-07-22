@@ -1,0 +1,65 @@
+featured_projects:
+  - name: ULTRON
+    emoji: 🧠
+    description: A modular, local-first AI operating system built from scratch without cognitive frameworks.
+    tech_stack: [Python, Pydantic, Ollama, Pytest]
+    repo_url: https://github.com/sukhithms25/ULTRON
+    version: In Development
+    status: ACTIVE DEVELOPMENT
+    badge_status: Building
+    badge_color: 00f0ff
+    tests: N/A
+    coverage: N/A
+    deployment: Local
+    relations:
+      parent: ""
+      children: [git_ai, CAPA, Krishi-Setu]
+  - name: git_ai
+    emoji: 🤖
+    description: An autonomous GitHub agent designed to interact with repositories, write code, and resolve issues.
+    tech_stack: [Python, Git, OpenAI API, CLI]
+    repo_url: https://github.com/sukhithms25/git_ai
+    version: N/A
+    status: In Development
+    badge_status: Building
+    badge_color: 00f0ff
+    tests: N/A
+    coverage: N/A
+    deployment: N/A
+    relations:
+      parent: ULTRON
+      children: [Developer Tooling]
+  - name: CAPA
+    emoji: ⚡
+    description: Context-Aware Personal Agent that handles scheduling, task routing, and personal orchestration.
+    tech_stack: [Python, FastAPI, SQLite, Docker]
+    repo_url: https://github.com/sukhithms25/CAPA
+    version: N/A
+    status: In Development
+    badge_status: Building
+    badge_color: 00f0ff
+    tests: N/A
+    coverage: N/A
+    deployment: N/A
+    relations:
+      parent: ULTRON
+      children: []
+  - name: Krishi-Setu
+    emoji: 🌾
+    description: High-throughput AgriTech backend powering local farm logistics, crop matching, and soil metrics analysis.
+    tech_stack: [Go, PostgreSQL, Redis, REST API]
+    repo_url: https://github.com/sukhithms25/Krishi-Setu
+    version: N/A
+    status: In Development
+    badge_status: Building
+    badge_color: 00f0ff
+    tests: N/A
+    coverage: N/A
+    deployment: N/A
+    relations:
+      parent: ULTRON
+      children: []
+tech_radar:
+  learning: [Go, Rust, Kubernetes]
+  building: [Python, FastAPI, React]
+  mastered: [Git, Docker, PostgreSQL]
