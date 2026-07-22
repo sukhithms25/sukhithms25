@@ -1,0 +1,34 @@
+name: CI Pipeline
+
+on:
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v4
+        
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          
+      - name: Install Linting & Formatting tools
+        run: |
+          pip install ruff black mypy pytest coveralls pyyaml
+          
+      - name: Format Check
+        run: black --check .
+        
+      - name: Lint Check
+        run: ruff check .
+        
+      - name: Type Check
+        run: mypy .
+        
+      - name: Run Tests
+        run: pytest tests/
