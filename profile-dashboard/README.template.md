@@ -11,9 +11,9 @@
 
 <div align="center">
   
-  # Sukhith M S
+  <h1>Sukhith M S</h1>
   
-  [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=1000&color=00F0FF&background=0D111700&center=true&vCenter=true&width=500&lines=Building+ULTRON;Developing+Autonomous+AI+Agents;Computer+Science+Engineering+Student)](https://git.io/typing-svg)
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=1000&color=00F0FF&center=true&vCenter=true&width=500&lines=Building+ULTRON;Developing+Autonomous+AI+Agents;Computer+Science+Engineering+Student" alt="Typing SVG" />
 
 </div>
 
@@ -29,12 +29,18 @@
 
 <br />
 
+## 🛠️ Technologies
+
+{{ TECHNOLOGIES }}
+
+<br />
+
 ## 📊 GitHub Activity
 
 {{ KERNEL_STATISTICS }}
 
 <br />
 
-## 🔌 Connection Ports
+## 📫 Connect
 
 {{ CONNECTION_PORTS }}
