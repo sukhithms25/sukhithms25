@@ -11,9 +11,9 @@
 
 <div align="center">
   
-  # Sukhith M S
+  <h1>Sukhith M S</h1>
   
-  [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=1000&color=00F0FF&background=0D111700&center=true&vCenter=true&width=500&lines=Building+ULTRON;Developing+Autonomous+AI+Agents;Computer+Science+Engineering+Student)](https://git.io/typing-svg)
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=1000&color=00F0FF&center=true&vCenter=true&width=500&lines=Building+ULTRON;Developing+Autonomous+AI+Agents;Computer+Science+Engineering+Student" alt="Typing SVG" />
 
 </div>
 
@@ -21,76 +21,94 @@
 
 Building **ULTRON** — a local-first, modular AI system focused on autonomous execution, memory, tooling, and local model integration.
 
-**Status:** In Development
-
 <br />
 
 ## ⭐ Featured Projects
 
-<table border="0" cellpadding="10" cellspacing="0" width="100%">
-  <tr>
-    <td valign="top" width="50%">
-      <h4>🧠 ULTRON</h4>
-      <p>A modular, local-first AI operating system built from scratch without cognitive frameworks.</p>
-      <p>🛠️ <code>Python</code> <code>Pydantic</code> <code>Ollama</code> <code>Pytest</code></p>
-      <p>
-        <a href="https://github.com/sukhithms25/ULTRON"><b>Explore Repository »</b></a>
-      </p>
-    </td>
-    <td valign="top" width="50%">
-      <h4>🤖 git_ai</h4>
-      <p>An autonomous GitHub agent designed to interact with repositories, write code, and resolve issues.</p>
-      <p>🛠️ <code>Python</code></p>
-      <p>
-        <a href="https://github.com/sukhithms25/git_ai"><b>Explore Repository »</b></a>
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td valign="top" width="50%">
-      <h4>⚡ CAPA-3</h4>
-      <p>Context-Aware Personal Agent that handles scheduling, task routing, and personal orchestration.</p>
-      <p>🛠️ <code>Python</code></p>
-      <p>
-        <a href="https://github.com/sukhithms25/CAPA-3"><b>Explore Repository »</b></a>
-      </p>
-    </td>
-    <td valign="top" width="50%">
-      <h4>🌾 Krishi-Setu_backend</h4>
-      <p>High-throughput AgriTech backend powering local farm logistics, crop matching, and soil metrics analysis.</p>
-      <p>🛠️ <code>Python</code></p>
-      <p>
-        <a href="https://github.com/sukhithms25/Krishi-Setu_backend"><b>Explore Repository »</b></a>
-      </p>
-    </td>
-  </tr>
-</table>
+### 🧠 ULTRON
+
+Local-first autonomous AI system with modular cognition, memory, execution, tooling, and local model integration.
+
+🛠️ `Python` `Pydantic` `Ollama` `Pytest`
+
+<a href="https://github.com/sukhithms25/ULTRON"><b>View Project →</b></a>
+
+---
+
+### 🤖 git_ai
+
+Autonomous development agent that analyzes GitHub issues, understands repositories, generates fixes, and automates code changes.
+
+🛠️ `Python`
+
+<a href="https://github.com/sukhithms25/git_ai"><b>View Project →</b></a>
+
+---
+
+### ⚡ CAPA
+
+Context-aware personal agent designed to understand user context and coordinate intelligent actions.
+
+🛠️ `Python`
+
+<a href="https://github.com/sukhithms25/CAPA-3"><b>View Project →</b></a>
+
+---
+
+### 🌾 Krishi Setu
+
+Agricultural technology platform backend designed to connect farming workflows with digital services.
+
+🛠️ `Python`
+
+<a href="https://github.com/sukhithms25/Krishi-Setu_backend"><b>View Project →</b></a>
+
+<br />
+
+## 🛠️ Technologies
+
+**Languages**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white&labelColor=30363d) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black&labelColor=30363d)
+
+**Backend**
+
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white&labelColor=30363d) ![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white&labelColor=30363d)
+
+**AI / ML**
+
+![Ollama](https://img.shields.io/badge/Ollama-black?style=flat-square&logo=ollama&logoColor=white&labelColor=30363d) ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white&labelColor=30363d)
+
+**Tools & Infrastructure**
+
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white&labelColor=30363d) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white&labelColor=30363d) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white&labelColor=30363d) ![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white&labelColor=30363d)
 
 <br />
 
 ## 📊 GitHub Activity
 
-<div align="center">
-  <table border="0" cellpadding="0" cellspacing="0" width="100%">
-    <tr>
-      <td valign="top" width="50%">
-        <img src="https://github-readme-stats.vercel.app/api?username=sukhithms25&show_icons=true&theme=tokyonight&bg_color=0b0e14&title_color=00f0ff&text_color=c9d1d9&icon_color=00f0ff&hide_border=true" alt="Sukhith's GitHub Stats" width="100%" />
-      </td>
-      <td valign="top" width="50%">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sukhithms25&layout=compact&theme=tokyonight&bg_color=0b0e14&title_color=00f0ff&text_color=c9d1d9&icon_color=00f0ff&hide_border=true" alt="Sukhith's Top Languages" width="100%" />
-      </td>
-    </tr>
-  </table>
-</div>
+**Repositories**
+36
+
+**Primary Language**
+Python
+
+**Latest Project**
+ULTRON
+
+**Updated**
+24 Jul 2026
 
 <br />
 
-## 🔌 Connection Ports
+## 📫 Connect
 
 <div align="center">
-
-[![Email](https://img.shields.io/badge/Email-sukhithms2003@gmail.com-00f0ff?style=flat-square&logo=gmail&logoColor=0b0e14&labelColor=30363d)](mailto:sukhithms2003@gmail.com)
-&nbsp;&nbsp;&nbsp;&nbsp;
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-sukhithms25-00f0ff?style=flat-square&logo=linkedin&logoColor=0b0e14&labelColor=30363d)](https://linkedin.com/in/sukhith-m-s)
-
+  <a href="mailto:sukhithms2003@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Contact_Me-00f0ff?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  &nbsp;
+  <a href="https://linkedin.com/in/sukhith-m-s">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
 </div>

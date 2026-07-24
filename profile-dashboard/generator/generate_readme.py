@@ -33,69 +33,70 @@ def main():
     
     # 1. Current Mission
     mission = dashboard_data["current_mission"]
-    current_mission = f"""Building **{mission["title"]}** — {mission["description"]}
+    current_mission = f"""Building **{mission["title"]}** — {mission["description"]}"""
 
-**Status:** {mission["status"]}"""
-
-    # 2. Featured Projects (2-column layout)
-    health_rows = ""
+    # 2. Featured Projects (Vertical stack)
+    project_blocks = []
     projects = projects_data["featured_projects"]
-    for i in range(0, len(projects), 2):
-        p1 = projects[i]
-        p2 = projects[i+1] if i+1 < len(projects) else None
+    for p in projects:
+        tags = " ".join(f"`{t}`" for t in p["tech_stack"])
+        block = f"""### {p["emoji"]} {p["display_name"]}
+
+{p["description"]}
+
+🛠️ {tags}
+
+<a href="{p["repo_url"]}"><b>View Project →</b></a>"""
+        project_blocks.append(block)
         
-        col1 = f"""      <h4>{p1["emoji"]} {p1["name"]}</h4>
-      <p>{p1["description"]}</p>
-      <p>🛠️ {" ".join(f"<code>{t}</code>" for t in p1["tech_stack"])}</p>
-      <p>
-        <a href="{p1["repo_url"]}"><b>Explore Repository »</b></a>
-      </p>"""
-         
-        if p2:
-            col2 = f"""      <h4>{p2["emoji"]} {p2["name"]}</h4>
-      <p>{p2["description"]}</p>
-      <p>🛠️ {" ".join(f"<code>{t}</code>" for t in p2["tech_stack"])}</p>
-      <p>
-        <a href="{p2["repo_url"]}"><b>Explore Repository »</b></a>
-      </p>"""
-        else:
-            col2 = ""
-            
-        health_rows += f"""  <tr>
-    <td valign="top" width="50%">
-{col1}
-    </td>
-    <td valign="top" width="50%">
-{col2}
-    </td>
-  </tr>\n"""
-     
-    featured_projects = f"""<table border="0" cellpadding="10" cellspacing="0" width="100%">
-{health_rows.rstrip()}
-</table>"""
+    featured_projects = "\n\n---\n\n".join(project_blocks)
 
-    # 3. Statistics
-    kernel_stats = f"""<div align="center">
-  <table border="0" cellpadding="0" cellspacing="0" width="100%">
-    <tr>
-      <td valign="top" width="50%">
-        <img src="https://github-readme-stats.vercel.app/api?username=sukhithms25&show_icons=true&theme=tokyonight&bg_color=0b0e14&title_color=00f0ff&text_color=c9d1d9&icon_color=00f0ff&hide_border=true" alt="Sukhith's GitHub Stats" width="100%" />
-      </td>
-      <td valign="top" width="50%">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sukhithms25&layout=compact&theme=tokyonight&bg_color=0b0e14&title_color=00f0ff&text_color=c9d1d9&icon_color=00f0ff&hide_border=true" alt="Sukhith's Top Languages" width="100%" />
-      </td>
-    </tr>
-  </table>
-</div>"""
+    # 3. Technologies
+    catalog = projects_data["tech_stack_catalog"]
+    langs_badges = " ".join(f'![{t["name"]}]({t["badge_url"]})' for t in catalog["languages"])
+    backend_badges = " ".join(f'![{t["name"]}]({t["badge_url"]})' for t in catalog["backend"])
+    ai_ml_badges = " ".join(f'![{t["name"]}]({t["badge_url"]})' for t in catalog["ai_ml"])
+    tools_badges = " ".join(f'![{t["name"]}]({t["badge_url"]})' for t in catalog["tools_infra"])
 
-    # 4. Connection Ports
+    technologies = f"""**Languages**
+
+{langs_badges}
+
+**Backend**
+
+{backend_badges}
+
+**AI / ML**
+
+{ai_ml_badges}
+
+**Tools & Infrastructure**
+
+{tools_badges}"""
+
+    # 4. GitHub Activity (Vertical stack)
+    kernel_stats = f"""**Repositories**
+{github_stats["repositories"]}
+
+**Primary Language**
+{github_stats["primary_language"]}
+
+**Latest Project**
+{github_stats["latest_project"]}
+
+**Updated**
+{github_stats["last_updated"]}"""
+
+    # 5. Connection Ports
     user = dashboard_data["user"]
     connection_ports = f"""<div align="center">
-
-[![Email](https://img.shields.io/badge/Email-{user["email"]}-00f0ff?style=flat-square&logo=gmail&logoColor=0b0e14&labelColor=30363d)](mailto:{user["email"]})
-&nbsp;&nbsp;&nbsp;&nbsp;
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-sukhithms25-00f0ff?style=flat-square&logo=linkedin&logoColor=0b0e14&labelColor=30363d)](https://{user["linkedin"]})
-
+  <a href="mailto:{user["email"]}">
+    <img src="https://img.shields.io/badge/Email-Contact_Me-00f0ff?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  &nbsp;
+  <a href="https://{user["linkedin"]}">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
 </div>"""
 
     # Load template
@@ -107,6 +108,7 @@ def main():
     final_content = template_content
     final_content = final_content.replace("{{ CURRENT_MISSION }}", current_mission)
     final_content = final_content.replace("{{ FEATURED_PROJECTS }}", featured_projects)
+    final_content = final_content.replace("{{ TECHNOLOGIES }}", technologies)
     final_content = final_content.replace("{{ KERNEL_STATISTICS }}", kernel_stats)
     final_content = final_content.replace("{{ CONNECTION_PORTS }}", connection_ports)
     

@@ -1,36 +1,53 @@
 featured_projects:
   - name: ULTRON
+    display_name: ULTRON
     emoji: 🧠
-    description: A modular, local-first AI operating system built from scratch without cognitive frameworks.
+    description: Local-first autonomous AI system with modular cognition, memory, execution, tooling, and local model integration.
     tech_stack: [Python, Pydantic, Ollama, Pytest]
     repo_url: https://github.com/sukhithms25/ULTRON
-    relations:
-      parent: ""
-      children: [git_ai, CAPA-3, Krishi-Setu_backend]
   - name: git_ai
+    display_name: git_ai
     emoji: 🤖
-    description: An autonomous GitHub agent designed to interact with repositories, write code, and resolve issues.
+    description: Autonomous development agent that analyzes GitHub issues, understands repositories, generates fixes, and automates code changes.
     tech_stack: [Python]
     repo_url: https://github.com/sukhithms25/git_ai
-    relations:
-      parent: ULTRON
-      children: [Developer Tooling]
   - name: CAPA-3
+    display_name: CAPA
     emoji: ⚡
-    description: Context-Aware Personal Agent that handles scheduling, task routing, and personal orchestration.
+    description: Context-aware personal agent designed to understand user context and coordinate intelligent actions.
     tech_stack: [Python]
     repo_url: https://github.com/sukhithms25/CAPA-3
-    relations:
-      parent: ULTRON
-      children: []
   - name: Krishi-Setu_backend
+    display_name: Krishi Setu
     emoji: 🌾
-    description: High-throughput AgriTech backend powering local farm logistics, crop matching, and soil metrics analysis.
+    description: Agricultural technology platform backend designed to connect farming workflows with digital services.
     tech_stack: [Python]
     repo_url: https://github.com/sukhithms25/Krishi-Setu_backend
-    relations:
-      parent: ULTRON
-      children: []
+tech_stack_catalog:
+  languages:
+    - name: Python
+      badge_url: "https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white&labelColor=30363d"
+    - name: JavaScript
+      badge_url: "https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black&labelColor=30363d"
+  backend:
+    - name: FastAPI
+      badge_url: "https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white&labelColor=30363d"
+    - name: Pydantic
+      badge_url: "https://img.shields.io/badge/Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white&labelColor=30363d"
+  ai_ml:
+    - name: Ollama
+      badge_url: "https://img.shields.io/badge/Ollama-black?style=flat-square&logo=ollama&logoColor=white&labelColor=30363d"
+    - name: OpenAI
+      badge_url: "https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white&labelColor=30363d"
+  tools_infra:
+    - name: Git
+      badge_url: "https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white&labelColor=30363d"
+    - name: GitHub Actions
+      badge_url: "https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white&labelColor=30363d"
+    - name: Docker
+      badge_url: "https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white&labelColor=30363d"
+    - name: Pytest
+      badge_url: "https://img.shields.io/badge/Pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white&labelColor=30363d"
 tech_radar:
   learning: [Go, Rust, Kubernetes]
   building: [Python, FastAPI, React]
