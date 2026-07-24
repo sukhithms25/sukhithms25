@@ -91,24 +91,24 @@ Agricultural technology platform backend designed to connect farming workflows w
 36
 
 **Primary Language**
-Python
+N/A
 
 **Latest Project**
-ULTRON
+N/A
 
 **Updated**
-24 Jul 2026
+N/A
 
 <br />
 
 ## 📫 Connect
 
 <div align="center">
-  <a href="mailto:sukhithms2003@gmail.com">
+  <a href="mailto:sukhithms25@gmail.com">
     <img src="https://img.shields.io/badge/Email-Contact_Me-00f0ff?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
   &nbsp;
-  <a href="https://linkedin.com/in/sukhith-m-s">
+  <a href="https://linkedin.com/in/sukhith-m-s-324487382">
     <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
 </div>
