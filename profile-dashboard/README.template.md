@@ -13,55 +13,25 @@
   
   # Sukhith M S
   
-  [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=1000&color=00F0FF&background=0D111700&center=true&vCenter=true&width=500&lines=Building+ULTRON+Operating+System;Developing+Autonomous+AI+Agents;Engineering+Developer+Infrastructure;Always+Learning.+Always+Shipping.)](https://git.io/typing-svg)
+  [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=1000&color=00F0FF&background=0D111700&center=true&vCenter=true&width=500&lines=Building+ULTRON;Developing+Autonomous+AI+Agents;Computer+Science+Engineering+Student)](https://git.io/typing-svg)
 
 </div>
 
 <br />
 
-{{ COMMAND_CENTER }}
+{{ CURRENT_MISSION }}
 
 <br />
 
-{{ MISSION_PHILOSOPHY }}
+## ⭐ Featured Projects
+
+{{ FEATURED_PROJECTS }}
 
 <br />
 
-{{ ECOSYSTEM_ROADMAP }}
-
-<br />
-
-{{ JOURNAL_AGENTS }}
-
-<br />
-
-### 🧠 ULTRON Core Architecture
-
-{{ MERMAID_DIAGRAM }}
-
-<br />
-
-## 🧪 Repository Health Matrix
-
-{{ REPOSITORY_HEALTH }}
-
-<br />
-
-## 📡 Tech Radar
-
-{{ TECH_RADAR }}
-
-<br />
-
-## 📊 Kernel Statistics
+## 📊 GitHub Activity
 
 {{ KERNEL_STATISTICS }}
-
-<br />
-
-## ⌨️ Command Console
-
-{{ COMMAND_CONSOLE }}
 
 <br />
 

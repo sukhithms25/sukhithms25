@@ -13,230 +13,62 @@
   
   # Sukhith M S
   
-  [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=1000&color=00F0FF&background=0D111700&center=true&vCenter=true&width=500&lines=Building+ULTRON+Operating+System;Developing+Autonomous+AI+Agents;Engineering+Developer+Infrastructure;Always+Learning.+Always+Shipping.)](https://git.io/typing-svg)
+  [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=1000&color=00F0FF&background=0D111700&center=true&vCenter=true&width=500&lines=Building+ULTRON;Developing+Autonomous+AI+Agents;Computer+Science+Engineering+Student)](https://git.io/typing-svg)
 
 </div>
 
 <br />
 
-<div align="center">
+Building **ULTRON** — a local-first, modular AI system focused on autonomous execution, memory, tooling, and local model integration.
 
-```text
-┌──────────────────────────────────────────────────────────┐
-│                     SPECTER OS v2.0                      │
-├──────────────────────────────────────────────────────────┤
-│  USER      : SUKHITH M S                                  │
-│  ROLE      : AI SYSTEMS ENGINEER                          │
-│  STATUS    : ONLINE                                       │
-│  PROJECT   : ULTRON                                       │
-│  BRANCH    : MAIN                                         │
-│  COMMIT    : 2026-07-23 02:12 UTC                         │
-└──────────────────────────────────────────────────────────┘
-```
-
-</div>
+**Status:** In Development
 
 <br />
 
-<table border="0" cellpadding="10" cellspacing="0" width="100%">
-  <tr>
-    <td valign="top" width="50%">
-      <h3>🚀 Current Mission</h3>
-      <p>Building <b>ULTRON</b>, A local-first, modular, personal AI operating system built from scratch with explicit lifecycle orchestration, telemetry, and capabilities.</p>
-      <p><b>Status:</b> In Development</p>
-    </td>
-    <td valign="top" width="50%">
-      <h3>🧠 Engineering Philosophy</h3>
-      <ul>
-        <li><b>Build from first principles.</b> Avoid framework bloat; construct every layer with intent.</li>
-        <li><b>Understand every layer.</b> Dig deep into runtime behavior, memory management, and execution budgets.</li>
-        <li><b>Automate what repeats.</b> Make automation a core system function, not a post-hoc convenience.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-<br />
-
-<table border="0" cellpadding="10" cellspacing="0" width="100%">
-  <tr>
-    <td valign="top" width="55%">
-      <h3>🌐 Repository Ecosystem</h3>
-      <pre>
-          SPECTER ECOSYSTEM
-
-                ULTRON
-                   │
-   ┌───────────────┼───────────────┐
-   │               │               │
-git_ai          CAPA        Krishi Setu
-   │
-   │
-Developer Tooling
-      </pre>
-    </td>
-    <td valign="top" width="45%">
-      <h3>📅 System Roadmap</h3>
-      <pre>
-Year: 2026
-Status: In Development
-
-Sprint 1   : Complete
-Sprint 2   : Complete
-Sprint 3   : Complete
-Sprint 4   : Building
-Sprint 5   : Scheduled
-Release    : Scheduled
-      </pre>
-    </td>
-  </tr>
-</table>
-
-<br />
-
-<table border="0" cellpadding="10" cellspacing="0" width="100%">
-  <tr>
-    <td valign="top" width="55%">
-      <h3>🗒️ Live Development Journal</h3>
-      <pre>
-Today's Progress:
-✓ Re-architected README layout into OS modules
-✓ Created interactive HTML Command Console
-✓ Implemented side-by-side repository health metrics
-✓ Integrated ULTRON Architecture Mermaid model
-
-Next:
-- Custom SVG rendering pipeline
-      </pre>
-    </td>
-    <td valign="top" width="45%">
-      <h3>🤖 AI Agent Architecture</h3>
-      <pre>
-Target Agents:
-• Planner Agent      [In Development]
-• Memory Agent       [In Development]
-• Reasoner Agent     [In Development]
-• Executor Agent     [In Development]
-      </pre>
-    </td>
-  </tr>
-</table>
-
-<br />
-
-### 🧠 ULTRON Core Architecture
-
-```mermaid
-graph TD
-  classDef default fill:#0b0e14,stroke:#30363d,stroke-width:1px,color:#c9d1d9;
-  classDef active fill:#0b0e14,stroke:#00f0ff,stroke-width:2px,color:#00f0ff;
-  CAPA[CAPA]:::default
-  Developer Tooling[Developer Tooling]:::default
-  Krishi_Setu[Krishi-Setu]:::default
-  ULTRON[ULTRON]:::default
-  git_ai[git_ai]:::default
-  ULTRON --> CAPA
-  ULTRON --> Krishi_Setu
-  ULTRON --> git_ai
-  git_ai --> Developer Tooling
-  class ULTRON active;
-```
-
-<br />
-
-## 🧪 Repository Health Matrix
+## ⭐ Featured Projects
 
 <table border="0" cellpadding="10" cellspacing="0" width="100%">
   <tr>
     <td valign="top" width="50%">
       <h4>🧠 ULTRON</h4>
-      <pre>
-Version    : In Development
-Status     : ACTIVE DEVELOPMENT
-Tests      : N/A
-Coverage   : N/A
-Deployment : Local
-      </pre>
-      <a href="https://github.com/sukhithms25/ULTRON"><b>Explore ULTRON »</b></a><br />
-      [![Status: Building](https://img.shields.io/badge/Status-Building-00f0ff?style=flat-square&labelColor=30363d)](#)
+      <p>A modular, local-first AI operating system built from scratch without cognitive frameworks.</p>
+      <p>🛠️ <code>Python</code> <code>Pydantic</code> <code>Ollama</code> <code>Pytest</code></p>
+      <p>
+        <a href="https://github.com/sukhithms25/ULTRON"><b>Explore Repository »</b></a>
+      </p>
     </td>
     <td valign="top" width="50%">
       <h4>🤖 git_ai</h4>
-      <pre>
-Version    : N/A
-Status     : In Development
-Tests      : N/A
-Coverage   : N/A
-Deployment : N/A
-      </pre>
-      <a href="https://github.com/sukhithms25/git_ai"><b>Explore git_ai »</b></a><br />
-      [![Status: Building](https://img.shields.io/badge/Status-Building-00f0ff?style=flat-square&labelColor=30363d)](#)
+      <p>An autonomous GitHub agent designed to interact with repositories, write code, and resolve issues.</p>
+      <p>🛠️ <code>Python</code></p>
+      <p>
+        <a href="https://github.com/sukhithms25/git_ai"><b>Explore Repository »</b></a>
+      </p>
     </td>
   </tr>
   <tr>
     <td valign="top" width="50%">
-      <h4>⚡ CAPA</h4>
-      <pre>
-Version    : N/A
-Status     : In Development
-Tests      : N/A
-Coverage   : N/A
-Deployment : N/A
-      </pre>
-      <a href="https://github.com/sukhithms25/CAPA"><b>Explore CAPA »</b></a><br />
-      [![Status: Building](https://img.shields.io/badge/Status-Building-00f0ff?style=flat-square&labelColor=30363d)](#)
+      <h4>⚡ CAPA-3</h4>
+      <p>Context-Aware Personal Agent that handles scheduling, task routing, and personal orchestration.</p>
+      <p>🛠️ <code>Python</code></p>
+      <p>
+        <a href="https://github.com/sukhithms25/CAPA-3"><b>Explore Repository »</b></a>
+      </p>
     </td>
     <td valign="top" width="50%">
-      <h4>🌾 Krishi-Setu</h4>
-      <pre>
-Version    : N/A
-Status     : In Development
-Tests      : N/A
-Coverage   : N/A
-Deployment : N/A
-      </pre>
-      <a href="https://github.com/sukhithms25/Krishi-Setu"><b>Explore Krishi-Setu »</b></a><br />
-      [![Status: Building](https://img.shields.io/badge/Status-Building-00f0ff?style=flat-square&labelColor=30363d)](#)
+      <h4>🌾 Krishi-Setu_backend</h4>
+      <p>High-throughput AgriTech backend powering local farm logistics, crop matching, and soil metrics analysis.</p>
+      <p>🛠️ <code>Python</code></p>
+      <p>
+        <a href="https://github.com/sukhithms25/Krishi-Setu_backend"><b>Explore Repository »</b></a>
+      </p>
     </td>
   </tr>
 </table>
 
 <br />
 
-## 📡 Tech Radar
-
-<table border="0" cellpadding="10" cellspacing="0" width="100%">
-  <tr>
-    <td valign="top" width="33%">
-      <h4>🟢 Learning</h4>
-      <ul>
-        <li>Go</li>
-        <li>Rust</li>
-        <li>Kubernetes</li>
-      </ul>
-    </td>
-    <td valign="top" width="33%">
-      <h4>🔵 Building</h4>
-      <ul>
-        <li>Python</li>
-        <li>FastAPI</li>
-        <li>React</li>
-      </ul>
-    </td>
-    <td valign="top" width="33%">
-      <h4>🟣 Mastered</h4>
-      <ul>
-        <li>Git</li>
-        <li>Docker</li>
-        <li>PostgreSQL</li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-<br />
-
-## 📊 Kernel Statistics
+## 📊 GitHub Activity
 
 <div align="center">
   <table border="0" cellpadding="0" cellspacing="0" width="100%">
@@ -253,21 +85,6 @@ Deployment : N/A
 
 <br />
 
-## ⌨️ Command Console
-
-<pre>
-guest@specter:~$ <a href="https://github.com/sukhithms25/ULTRON/tree/main/specter-rfcs">system status</a>
-Kernel: Active | Cognitive Budget: 92% | Logs: Normal
-
-guest@specter:~$ <a href="mailto:sukhithms2003@gmail.com">whoami</a>
-User: Sukhith M S | Role: AI Systems Engineer | Status: Ready
-
-guest@specter:~$ <a href="https://github.com/sukhithms25?tab=repositories">ls</a>
-bin/  ultron/  git_ai/  capa/  krishi-setu/
-</pre>
-
-<br />
-
 ## 🔌 Connection Ports
 
 <div align="center">
@@ -275,7 +92,5 @@ bin/  ultron/  git_ai/  capa/  krishi-setu/
 [![Email](https://img.shields.io/badge/Email-sukhithms2003@gmail.com-00f0ff?style=flat-square&logo=gmail&logoColor=0b0e14&labelColor=30363d)](mailto:sukhithms2003@gmail.com)
 &nbsp;&nbsp;&nbsp;&nbsp;
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-sukhithms25-00f0ff?style=flat-square&logo=linkedin&logoColor=0b0e14&labelColor=30363d)](https://linkedin.com/in/sukhith-m-s)
-&nbsp;&nbsp;&nbsp;&nbsp;
-[![Portfolio-Coming Soon](https://img.shields.io/badge/Portfolio-Coming%20Soon-58a6ff?style=flat-square&logo=github&logoColor=0b0e14&labelColor=30363d)](#)
 
 </div>

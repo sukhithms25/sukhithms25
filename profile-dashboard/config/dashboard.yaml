@@ -8,7 +8,7 @@ user:
   portfolio: ""
 current_mission:
   title: ULTRON
-  description: A local-first, modular, personal AI operating system built from scratch with explicit lifecycle orchestration, telemetry, and capabilities.
+  description: a local-first, modular AI system focused on autonomous execution, memory, tooling, and local model integration.
   status: In Development
 philosophy:
   - title: Build from first principles.

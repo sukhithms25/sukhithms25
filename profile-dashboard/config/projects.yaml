@@ -4,58 +4,30 @@ featured_projects:
     description: A modular, local-first AI operating system built from scratch without cognitive frameworks.
     tech_stack: [Python, Pydantic, Ollama, Pytest]
     repo_url: https://github.com/sukhithms25/ULTRON
-    version: In Development
-    status: ACTIVE DEVELOPMENT
-    badge_status: Building
-    badge_color: 00f0ff
-    tests: N/A
-    coverage: N/A
-    deployment: Local
     relations:
       parent: ""
-      children: [git_ai, CAPA, Krishi-Setu]
+      children: [git_ai, CAPA-3, Krishi-Setu_backend]
   - name: git_ai
     emoji: 🤖
     description: An autonomous GitHub agent designed to interact with repositories, write code, and resolve issues.
-    tech_stack: [Python, Git, OpenAI API, CLI]
+    tech_stack: [Python]
     repo_url: https://github.com/sukhithms25/git_ai
-    version: N/A
-    status: In Development
-    badge_status: Building
-    badge_color: 00f0ff
-    tests: N/A
-    coverage: N/A
-    deployment: N/A
     relations:
       parent: ULTRON
       children: [Developer Tooling]
-  - name: CAPA
+  - name: CAPA-3
     emoji: ⚡
     description: Context-Aware Personal Agent that handles scheduling, task routing, and personal orchestration.
-    tech_stack: [Python, FastAPI, SQLite, Docker]
-    repo_url: https://github.com/sukhithms25/CAPA
-    version: N/A
-    status: In Development
-    badge_status: Building
-    badge_color: 00f0ff
-    tests: N/A
-    coverage: N/A
-    deployment: N/A
+    tech_stack: [Python]
+    repo_url: https://github.com/sukhithms25/CAPA-3
     relations:
       parent: ULTRON
       children: []
-  - name: Krishi-Setu
+  - name: Krishi-Setu_backend
     emoji: 🌾
     description: High-throughput AgriTech backend powering local farm logistics, crop matching, and soil metrics analysis.
-    tech_stack: [Go, PostgreSQL, Redis, REST API]
-    repo_url: https://github.com/sukhithms25/Krishi-Setu
-    version: N/A
-    status: In Development
-    badge_status: Building
-    badge_color: 00f0ff
-    tests: N/A
-    coverage: N/A
-    deployment: N/A
+    tech_stack: [Python]
+    repo_url: https://github.com/sukhithms25/Krishi-Setu_backend
     relations:
       parent: ULTRON
       children: []
