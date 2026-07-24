@@ -11,8 +11,10 @@ except ImportError:
     subprocess.check_call([sys.executable, "-m", "pip", "install", "pyyaml"])
     import yaml
 
-# Import generator sub-modules
-from github_api import get_github_stats
+try:
+    from profile_dashboard.generator.github_api import get_github_stats
+except ImportError:
+    from github_api import get_github_stats
 
 def main():
     base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))

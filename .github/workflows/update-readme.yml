@@ -34,7 +34,7 @@ jobs:
 
       - name: Generate README
         run: |
-          python profile-dashboard/generator/generate_readme.py
+          python profile_dashboard/generator/generate_readme.py
 
       - name: Commit and Push
         run: |
