@@ -91,13 +91,13 @@ Agricultural technology platform backend designed to connect farming workflows w
 36
 
 **Primary Language**
-TypeScript
+Python
 
 **Latest Project**
 ULTRON
 
 **Updated**
-28 Jul 2026
+29 Jul 2026
 
 <br />
 
