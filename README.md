@@ -91,13 +91,13 @@ Agricultural technology platform backend designed to connect farming workflows w
 40
 
 **Primary Language**
-TypeScript
+Python
 
 **Latest Project**
 Claude-portfolio
 
 **Updated**
-25 Aug 2026
+26 Aug 2026
 
 <br />
 
