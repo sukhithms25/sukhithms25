@@ -91,13 +91,13 @@ Agricultural technology platform backend designed to connect farming workflows w
 41
 
 **Primary Language**
-Python
+TypeScript
 
 **Latest Project**
 Sukrutha-iyer-06
 
 **Updated**
-08 Sep 2026
+09 Sep 2026
 
 <br />
 
