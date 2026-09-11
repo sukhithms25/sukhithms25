@@ -94,10 +94,10 @@ Agricultural technology platform backend designed to connect farming workflows w
 Python
 
 **Latest Project**
-Sukrutha-iyer-06
+Claude-portfolio
 
 **Updated**
-10 Sep 2026
+11 Sep 2026
 
 <br />
 
